@@ -50,7 +50,7 @@
           </div>
 
           <button class="btn" type="submit">Login</button>
-          <a class="btn" href="register.php">Register</a>
+          <a class="btn" href="index.php">Register</a>
         </form>
       </section>
     </div>
