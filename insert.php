@@ -17,7 +17,7 @@
   ];
   
   foreach ($required_fields as $field) {
-    if (empty($_POST['username']) { // Step 3: Write the correct condition to check if the field is empty (replace null with the correct logic)
+    if (empty($_POST['username'])) { // Step 3: Write the correct condition to check if the field is empty (replace null with the correct logic)
       $human_field = str_replace("_", " ", $field);
       $errors[] = "You cannot leave the {$human_field} blank.";
     }
