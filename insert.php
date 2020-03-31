@@ -56,7 +56,7 @@
 
   /* NORMALIZATION */
   // Normalize the string fields (convert to lowercase and capitalize the first letter)
-  foreach (['first_name', 'last_name'] as $field) {
+  foreach (['username', 'password'] as $field) {
     $_POST[$field] = strtolower($_POST[$field]);
     $_POST[$field] = ucwords($_POST[$field]);
   }
