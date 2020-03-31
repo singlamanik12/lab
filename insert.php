@@ -79,8 +79,8 @@
     username,
     password
   ) VALUES (
-    "$_POST['username']",
-    "$_POST['password']"
+    :username,
+    :password
   )
 ";
   $stmt = $conn->prepare($sql);
