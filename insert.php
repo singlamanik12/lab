@@ -25,7 +25,7 @@
 
   // Step 4: Validate the username is in the correct format (replace null with the correct logic)
   
-  if (ctype_space($string)) {
+  if (ctype_space($_POST['username'])) {
     $errors[] = "The username isn't in a valid format. Please correct it.";
   }
 
