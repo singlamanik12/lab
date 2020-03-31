@@ -40,7 +40,7 @@
   }
   
   // Step 7: Check if they're errors (replace null with the correct logic)
-  if ((count($errors) > 0) {
+  if ((count($errors) > 0) ){
     // Add the current form values to the $_SESSION
     session_start();
     $_SESSION['form_values'] = $_POST['required_fields'];
